@@ -1,0 +1,25 @@
+{
+  "name": "Package_Deletor",
+  "version": "1.0.0",
+  "description": "Deletes a specified package and it's associated repositories, both locally and on GitHub.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NYX1122/Package_Deletor"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Package_Deletor/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Package_Deletor#readme",
+  "dependencies": {
+    "github_manager": "file:../Github_Manager",
+    "sibling_folder_reader": "file:../Sibling_Folder_Reader",
+    "terminal_asker": "file:../Terminal_Asker"
+  }
+}
